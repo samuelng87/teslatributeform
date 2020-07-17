@@ -1,6 +1,5 @@
-
 iframe {
-  max-width: 560px;
+  max-width: 860px;
   width: 100%; 
   border-radius: 10px;
 }
@@ -31,6 +30,7 @@ max-width: 365px;
   background-color:white;
  padding:0 10px 1px 10px;
   border-radius:10px;
+  display: inline-block;
 }
 
 img {
@@ -81,3 +81,16 @@ p {
   font-size:19px;
   }
 
+
+@media (min-width:700px) {
+
+  .container {
+    display:flex;
+  }
+    .box {
+      margin:10px;
+    }
+   
+}
+  
+}
